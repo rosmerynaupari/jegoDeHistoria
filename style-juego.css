@@ -1,0 +1,93 @@
+body {
+	background-image: url("https://cdn.playbuzz.com/cdn//5d0558c3-45e0-4fed-9736-545db3159dbd/06a90ff2-fd1d-4c00-b4c2-7d1c58163846.jpg");
+}
+
+.preguntas {
+	
+	width: 60%;
+	display: inline-block;
+	text-align: center;
+	padding: 0.7em;
+
+}
+
+#posicion {
+	background-color:  #fad872;
+	display: inline-block;
+	visibility: hidden;
+}
+
+p {
+	padding: 30px;
+}
+
+#trivia1 {
+	background-color:  #802b00;
+	color: #ffffff;
+	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+}
+
+#trivia2 {
+	background-color:  #802b00;
+	color: #ffffff;
+	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+}
+
+#trivia3 {
+	background-color:  #802b00;
+	color: #ffffff;
+	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+}
+
+
+#tabla {
+	visibility: hidden;
+	text-align: center;
+	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+}
+
+#boton1 {
+	text-align: left;
+	visibility: hidden;
+}
+
+#boton2 {
+	text-align: left;
+	visibility: hidden;
+}
+
+#boton3 {
+	text-align: left;
+	visibility: hidden;
+}
+
+#show {
+	visibility: hidden;
+}
+
+#title {
+	width: 15%;
+  	margin: auto;
+	background-color: rgba(255,255,255,0.5);
+	color: black;
+	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+	text-shadow: 1px 1px 1px black;
+	text-align: center;
+	padding: 0.3em 0.3em;
+	visibility: hidden;
+}
+
+#acertadas {
+	color: white;
+  	text-shadow: 5px 5px 5px black;
+}
+
+#puntuacion {
+	color: white;
+  	text-shadow: 5px 5px 5px black;
+  	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5), inset -2px -2px 5px rgba(255,255,255,0.5);
+  	background-color:  #bdbaaf;
+  	padding: 0.3em 0.3em;
+  	width: 10%;
+
+}

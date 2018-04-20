@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aprender en Juega Perú</title>
+    <link rel="stylesheet" href="style-juego.css">
+    <link rel="shortcut icon" href="https://image.winudf.com/v2/image/cHJpbmNpcGFsZXMuaGFzdGFlbGNodWxvX2ljb25fc2J2b29xb2k/icon.png?w=170&fakeurl=1&type=.png">
+  </head>
+  <body bgcolor="#fad872">
+
+
+    <center><h1 id="title"></h1></center>
+
+  <center><main class="preguntas" id="show">
+
+    <button onclick="myFunction1()" id="boton1">Ver explicación de Pregunta 1</button>
+
+    <p id="trivia1">La participación política de la mujer, mediante el ejercicio del sufragio, se logró durante el gobierno de...</p>
+
+
+    <button onclick="myFunction2()" id="boton2">Ver explicación de Pregunta 2</button>
+    <p id="trivia2">La jornada de las 8 horas en el Perú se implantó definitivamente durante el gobierno de...</p>
+
+
+    <button onclick="myFunction3()" id="boton3">Ver explicación de Pregunta 3</button>
+    <p id="trivia3">Durante el segundo Gobierno de Ramón Castilla las tropas peruanas invadieron la república de...</p>
+
+  </main></center>
+      <!-- Respuestas Correctas -->
+      <center><h3 id="acertadas"></h3></center>
+
+
+
+      <!-- Tabla de Respuestas -->
+  <center><aside id="posicion">
+     <table id="tabla">
+      <thead>
+          <th colspan="3">RESPUESTAS</th>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>Preguntas</th>
+          <td coldspan="3">Referencia</td>
+          <td>Tu Respuesta</td>
+
+        </tr>
+
+        <tr>
+          <th>1.</th>
+          <td>B</td>
+          <td id="prob1"> -- </td>
+        </tr>
+        <tr>
+          <th>2.</th>
+          <td>B</td>
+          <td id="prob2"> -- </td>
+        </tr>
+        <tr>
+          <th>3.</th>
+          <td>A</td>
+          <td id="prob3"> -- </td>
+        </tr>
+      </tbody>
+    </table>
+  </aside> </center>
+    <!-- Puntuación -->
+
+     <center> <h4 id="puntuacion"></h4> </center>
+
+    <script type="text/javascript" src="app-juego.js"> </script>
+
+  </body>
+</html>
